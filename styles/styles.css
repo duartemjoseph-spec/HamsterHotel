@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Source+Sans+3:wght@400;500;600&display=swap");
+/* --------
+   Classes
+   --------*/
+
+body {
+  padding-top: 120px;
+  font-family: "Source Sans 3", sans-serif;
+}
+a {
+  font-family: "Dosis";
+}
+h1 {
+  font-family: "Dosis";
+  color: #e5feff;
+}
+h2,
+h3 {
+  font-family: "Dosis";
+}
+li,
+p {
+  font-family: "Source Sans 3";
+}
+.bold {
+  font-weight: 1000;
+}
+.bg-head-dark {
+  background-color: #000324;
+}
+.bg-hotel-dark {
+  background-image: url("/images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-style-1 {
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* -------
+   Navbar
+   -------*/
+.navbar {
+  min-height: 120px;
+  font-weight: 500;
+  align-items: center;
+}
+
+/* -------------
+   Hero Section
+   -------------*/
+.hero-section {
+  background-image: url("/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  min-height: 600px;
+  margin-top: -120px;
+}
+
+.hero-overlay {
+  width: min(100%, 1400px);
+  padding: 3rem 1.5rem;
+  background-color: #000324c8;
+}
+
+.welcome-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* ------
+   Rooms
+   ------*/
+.rooms-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.rooms-section .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 0px;
+}
+.card {
+  border-radius: 0;
+  border: none;
+}
+
+/* ---------
+   Packages
+   ---------*/
+
+.packages-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.packages-section h3 {
+  font-weight: 600;
+}
+
+/* ----------
+   Amenities
+   ----------*/
+.amenities-section {
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.amenities-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0003244b;
+  z-index: 1;
+}
+
+.amenity-icon {
+  height: 3.5rem;
+  width: auto;
+}
+
+/* ----------------
+   Reserve Section
+   ----------------*/
+
+.reserve-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.reserve-section .form-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e0e0e0;
+}
+.reserve-bg {
+  background-color: #000324;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.form-control,
+.form-select {
+  border-radius: 0px;
+}
+
+/* -------
+   Footer
+   -------*/
+.footer-section {
+  color: #ccc;
+  background-color: #000324;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
