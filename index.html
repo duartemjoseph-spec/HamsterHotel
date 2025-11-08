@@ -36,7 +36,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-head-dark fixed-top">
-            <div class="container-fluid px-4">
+            <div class="container">
 
                 <a class="navbar-brand d-lg-none" href="#">
                     <img src="images/Logo.png" alt="Logo" class="logo">
@@ -86,7 +86,7 @@
             <div class="hero-overlay">
                 <div class="container">
                     <h1 class="display-3 bold">Run on the wheel of luxury</h1>
-                    <p class="lead col-lg-8 mx-auto">Explore everything the beach has to offer in our relaxing
+                    <p class=" col-lg-8 mx-auto">Explore everything the beach has to offer in our relaxing
                         resort.</p>
                 </div>
             </div>
@@ -286,36 +286,37 @@
                         </div>
                     </div>
 
-                    <form class="row g-3 justify-content-center ">
-                        <div class="col-md-2">
-                            <label for="checkin" class="form-label">Check-in</label>
-                            <input type="date" class="form-control" id="checkin">
-                        </div>
-                        <div class="col-md-2">
-                            <label for="checkout" class="form-label">Check-out</label>
-                            <input type="date" class="form-control" id="checkout">
-                        </div>
-                        <div class="col-md-2">
-                            <label for="guests" class="form-label">Number of Guests</label>
-                            <select id="guests" class="form-select">
-                                <option selected>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <label for="roomType" class="form-label">Room Type</label>
-                            <select id="roomType" class="form-select">
-                                <option selected>Queen</option>
-                                <option>King</option>
-                                <option>Suite</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2 align-self-end">
-                            <button type="submit" class="btn btn-primary w-100">Check Availability</button>
-                        </div>
-                    </form>
+                    <form class="row g-3 justify-content-center">
+    <div class="col-md-6 col-lg-2">
+        <label for="checkin" class="form-label">Check-in</label>
+        <input type="date" class="form-control" id="checkin">
+    </div>
+    <div class="col-md-6 col-lg-2">
+        <label for="checkout" class="form-label">Check-out</label>
+        <input type="date" class="form-control" id="checkout">
+    </div>
+    <div class="col-md-6 col-lg-2">
+        <label for="guests" class="form-label">Number of Guests</label>
+        <select id="guests" class="form-select">
+            <option selected>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </div>
+    <div class="col-md-6 col-lg-2">
+        <label for="roomType" class="form-label">Room Type</label>
+        <select id="roomType" class="form-select">
+            <option selected>Queen</option>
+            <option>King</option>
+            <option>Suite</option>
+        </select>
+    </div>
+    
+    <div class="col-md-12 col-lg-2 align-self-end">
+        <button type="submit" class="btn btn-primary w-100">Check Availability</button>
+    </div>
+</form>
                 </div>
             </div>
             <div class="container">
