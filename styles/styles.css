@@ -71,6 +71,9 @@ p {
 .welcome-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-image: url("../images/hamsterhomejpg.jpg");
+  background-size: cover;
+  background-position: center;  background-repeat: no-repeat;
 }
 
 /* ------
